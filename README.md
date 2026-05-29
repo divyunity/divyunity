@@ -8,11 +8,11 @@
 
 <br/>
 
-<!-- Profile Views & Socials -->
+<!-- Profile Views & Repos -->
 <p>
 <img src="https://komarev.com/ghpvc/?username=divyunity&label=Profile%20Views&color=6c63ff&style=for-the-badge" alt="Profile Views" />
-<a href="https://github.com/divyunity?tab=followers"><img src="https://img.shields.io/github/followers/divyunity?label=Followers&style=for-the-badge&color=6c63ff&labelColor=1a1b27" alt="GitHub Followers" /></a>
-<a href="https://github.com/divyunity?tab=repositories"><img src="https://img.shields.io/badge/Repos-11-6c63ff?style=for-the-badge&labelColor=1a1b27" alt="Repos" /></a>
+<a href="https://github.com/divyunity?tab=repositories"><img src="https://img.shields.io/badge/Repos-12-6c63ff?style=for-the-badge&labelColor=1a1b27" alt="Repos" /></a>
+<a href="https://github.com/divyunity?tab=followers"><img src="https://img.shields.io/badge/Followers-2+-6c63ff?style=for-the-badge&labelColor=1a1b27" alt="Followers" /></a>
 </p>
 
 </div>
@@ -87,21 +87,53 @@ const devTaluja = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-devtaluja.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
+  <img width="49%" src="https://github-readme-stats-devtaluja.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+</picture>
 
 <br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-devtaluja.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+  <img width="40%" src="https://github-readme-stats-devtaluja.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+</picture>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=divyunity&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" />
+<table>
+<tr>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/🏗️-11%20Repos-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<sub><b>Repositories</b></sub>
+</td>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/⭐-6%20Stars-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<sub><b>Stars Earned</b></sub>
+</td>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/🍴-1%20Fork-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<sub><b>Forks</b></sub>
+</td>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/👥-2%20Followers-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<sub><b>Followers</b></sub>
+</td>
+<td align="center" width="150">
+<img src="https://img.shields.io/badge/🔥-Active-00c853?style=for-the-badge&labelColor=1a1b27" /><br/>
+<sub><b>Daily Streak</b></sub>
+</td>
+</tr>
+</table>
 </div>
 
 ---
@@ -109,20 +141,44 @@ const devTaluja = {
 ## 🚀 Featured Projects
 
 <div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/divyunity/TaskManager">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=divyunity&repo=TaskManager&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6" />
-</a>
-<a href="https://github.com/divyunity/krishimitra">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=divyunity&repo=krishimitra&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6" />
-</a>
-<a href="https://github.com/divyunity/AI_script_generator">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=divyunity&repo=AI_script_generator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6" />
-</a>
-<a href="https://github.com/divyunity/GeMBidScraper">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=divyunity&repo=GeMBidScraper&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6" />
-</a>
+### [🗂️ TaskManager](https://github.com/divyunity/TaskManager)
+> Full-stack MERN task management app with JWT auth, CRUD operations, priority levels & dashboard stats. Deployed on Netlify.
 
+`React` `Node.js` `MongoDB` `Express` `JWT`
+
+</td>
+<td width="50%">
+
+### [🌾 KrishiMitra](https://github.com/divyunity/krishimitra)
+> Agricultural technology platform built to help farmers with modern digital solutions.
+
+`JavaScript` `Node.js` `MongoDB`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [🤖 AI Script Generator](https://github.com/divyunity/AI_script_generator)
+> AI-powered tool for generating scripts and content automatically using machine learning APIs.
+
+`JavaScript` `AI/ML` `APIs`
+
+</td>
+<td width="50%">
+
+### [📊 GeMBidScraper](https://github.com/divyunity/GeMBidScraper)
+> Python scraper for Government e-Marketplace (GeM) bidding data extraction and analysis.
+
+`Python` `Web Scraping` `Data Analysis`
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
