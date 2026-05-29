@@ -12,7 +12,7 @@
 <p>
 <img src="https://komarev.com/ghpvc/?username=divyunity&label=Profile%20Views&color=6c63ff&style=for-the-badge" alt="Profile Views" />
 <a href="https://github.com/divyunity?tab=repositories"><img src="https://img.shields.io/badge/Repos-12-6c63ff?style=for-the-badge&labelColor=1a1b27" alt="Repos" /></a>
-<a href="https://github.com/divyunity?tab=followers"><img src="https://img.shields.io/github/followers/divyunity?label=Followers&style=for-the-badge&color=6c63ff&labelColor=1a1b27" alt="Followers" /></a>
+<a href="https://github.com/divyunity?tab=followers"><img src="https://img.shields.io/badge/Followers-2+-6c63ff?style=for-the-badge&labelColor=1a1b27" alt="Followers" /></a>
 </p>
 
 </div>
@@ -87,12 +87,21 @@ const devTaluja = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
-<img width="49%" src="https://streak-stats.demolab.com?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-devtaluja.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
+  <img width="49%" src="https://github-readme-stats-devtaluja.vercel.app/api?username=divyunity&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&icon_color=6c63ff&text_color=a9b1d6&count_private=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=divyunity&theme=tokyonight&hide_border=true&background=0d1117&ring=6c63ff&fire=6c63ff&currStreakLabel=6c63ff&sideLabels=a9b1d6&dates=a9b1d6&currStreakNum=ffffff&sideNums=ffffff" />
+</picture>
 
 <br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-devtaluja.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+  <img width="40%" src="https://github-readme-stats-devtaluja.vercel.app/api/top-langs/?username=divyunity&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6c63ff&text_color=a9b1d6&langs_count=8" />
+</picture>
 
 </div>
 
@@ -104,7 +113,7 @@ const devTaluja = {
 <table>
 <tr>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/🏗️-12%20Repos-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<img src="https://img.shields.io/badge/🏗️-11%20Repos-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
 <sub><b>Repositories</b></sub>
 </td>
 <td align="center" width="150">
@@ -116,7 +125,7 @@ const devTaluja = {
 <sub><b>Forks</b></sub>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/👥-2+%20Followers-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
+<img src="https://img.shields.io/badge/👥-2%20Followers-6c63ff?style=for-the-badge&labelColor=1a1b27" /><br/>
 <sub><b>Followers</b></sub>
 </td>
 <td align="center" width="150">
