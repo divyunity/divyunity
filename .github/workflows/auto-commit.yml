@@ -1,0 +1,111 @@
+name: Daily Green Dots 🟢
+
+on:
+  schedule:
+    # Runs 4 times daily at different hours (UTC) to create 4 commits
+    - cron: "30 2 * * *"   # ~8:00 AM IST
+    - cron: "30 7 * * *"   # ~1:00 PM IST  
+    - cron: "30 12 * * *"  # ~6:00 PM IST
+    - cron: "30 17 * * *"  # ~11:00 PM IST
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Git Config
+        run: |
+          git config user.name "Dev taluja"
+          git config user.email "brainaryexplains@gmail.com"
+      
+      - name: Generate Daily Content
+        run: |
+          # Create/update the activity log
+          mkdir -p logs
+          
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+          DAY_OF_WEEK=$(date '+%A')
+          COMMIT_NUM=$((RANDOM % 1000 + 1))
+          
+          # Array of motivational dev quotes
+          QUOTES=(
+            "Code is poetry written in logic."
+            "First, solve the problem. Then, write the code."
+            "The best error message is the one that never shows up."
+            "Programming isn't about what you know; it's about what you can figure out."
+            "Clean code always looks like it was written by someone who cares."
+            "Simplicity is the soul of efficiency."
+            "Talk is cheap. Show me the code."
+            "Any fool can write code that a computer can understand."
+            "The only way to learn a new programming language is by writing programs in it."
+            "Experience is the name everyone gives to their mistakes."
+            "Java is to JavaScript what car is to carpet."
+            "A good programmer looks both ways before crossing a one-way street."
+            "Deleted code is debugged code."
+            "It works on my machine."
+            "There are only two hard things: cache invalidation and naming things."
+          )
+          
+          # Array of tech tips
+          TIPS=(
+            "💡 Use 'git stash' to temporarily save uncommitted changes"
+            "💡 React.memo() prevents unnecessary re-renders"
+            "💡 MongoDB indexes can speed up queries by 100x"
+            "💡 Use environment variables for sensitive configuration"
+            "💡 The 'useCallback' hook optimizes function references in React"
+            "💡 Always validate user input on both client and server side"
+            "💡 Use 'async/await' for cleaner asynchronous code"
+            "💡 Docker containers ensure consistent development environments"
+            "💡 CSS Grid is perfect for 2D layouts, Flexbox for 1D"
+            "💡 JWT tokens should have short expiration times for security"
+            "💡 Use 'npm audit' regularly to check for vulnerabilities"
+            "💡 Debounce search inputs to reduce API calls"
+            "💡 Use meaningful variable names - your future self will thank you"
+            "💡 Write tests before fixing bugs to prevent regression"
+            "💡 Use 'console.table()' for better object visualization"
+          )
+          
+          RANDOM_QUOTE=${QUOTES[$((RANDOM % ${#QUOTES[@]}))]}
+          RANDOM_TIP=${TIPS[$((RANDOM % ${#TIPS[@]}))]}
+          
+          # Write to activity log
+          echo "" >> logs/activity.md
+          echo "### 📅 ${TIMESTAMP} (${DAY_OF_WEEK})" >> logs/activity.md
+          echo "- 🔢 Commit #${COMMIT_NUM}" >> logs/activity.md
+          echo "- 💬 \"${RANDOM_QUOTE}\"" >> logs/activity.md
+          echo "- ${RANDOM_TIP}" >> logs/activity.md
+          echo "---" >> logs/activity.md
+          
+          # Update last-updated timestamp
+          echo "Last updated: ${TIMESTAMP}" > LAST_UPDATED.txt
+          echo "" >> LAST_UPDATED.txt
+          echo "This repository is automatically maintained." >> LAST_UPDATED.txt
+          echo "Total activity entries: $(grep -c '### 📅' logs/activity.md 2>/dev/null || echo 0)" >> LAST_UPDATED.txt
+      
+      - name: Commit and Push
+        run: |
+          git add -A
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          
+          # Randomized commit messages
+          MESSAGES=(
+            "📝 Daily activity update - ${TIMESTAMP}"
+            "🔄 Automated knowledge log - ${TIMESTAMP}"
+            "📊 Daily dev journal entry - ${TIMESTAMP}"
+            "🌱 Growing the contribution garden - ${TIMESTAMP}"
+            "⚡ Daily automation run - ${TIMESTAMP}"
+            "🎯 Consistency check - ${TIMESTAMP}"
+            "📈 Progress tracking update - ${TIMESTAMP}"
+            "🔧 Routine maintenance - ${TIMESTAMP}"
+          )
+          
+          RANDOM_MSG=${MESSAGES[$((RANDOM % ${#MESSAGES[@]}))]}
+          
+          git diff --staged --quiet || git commit -m "${RANDOM_MSG}"
+          git push
